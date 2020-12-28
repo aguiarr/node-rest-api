@@ -1,0 +1,35 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "A Rest API made with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "teste"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguiarr/node-rest-api.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs",
+    "node"
+  ],
+  "author": "Matheus Aguiar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aguiarr/node-rest-api/issues"
+  },
+  "homepage": "https://github.com/aguiarr/node-rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
